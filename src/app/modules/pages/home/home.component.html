@@ -1,3 +1,17 @@
 <app-header></app-header>
-]<app-knowledge></app-knowledge>
-<app-experiences></app-experiences>
+<main>
+    <app-knowledge></app-knowledge>
+    <app-experiences></app-experiences>
+    @defer(on viewport){
+        <app-projects></app-projects>
+    }@placeholder {
+        <section>
+            <h2>Carregnado todos os projetos desenvolvidos...</h2>
+        </section>
+    } @error {
+        <section>
+            <h2>Ocorreu um erro no download do componente, tente novamente...</h2>
+        </section>
+    }
+    
+</main>
