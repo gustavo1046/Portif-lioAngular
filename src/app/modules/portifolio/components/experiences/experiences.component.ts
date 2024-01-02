@@ -29,7 +29,7 @@ export class ExperiencesComponent {
         strong: "DBA Oracle | Conexos",
         p: "Julho 2022 - Dezembro 2023"
       },
-      text: "Desenvolver Query específicas com foco em performance para a confecção de relatórios visuais a partir da ferramenta Jasper Reports",
+      text: "<p>Desenvolver Query específicas com foco em performance para a confecção de relatórios visuais a partir da ferramenta Jasper Reports</p>",
     },
   ]);
 }
