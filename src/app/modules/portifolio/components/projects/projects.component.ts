@@ -15,76 +15,19 @@ export class ProjectsComponent {
   #dialog = inject(MatDialog);
   public arrayProjects = signal<IProjects[]>([
     {
-      src: 'assets/img/projects/vfull.png',
-      alt: '',
-      title: 'vida Fullstack',
-      width: '100px',
-      height: '51px', 
+      src: 'assets/img/projects/salonSense.png',
+      alt: 'Salon Sense',
+      title: 'Salon Sense',
+      width: '135px',
+      height: '85%', 
       description: '<p>Explore o fascinante mundo do desenvolvimento web do meu blog dedicado a vida fullstack</p>',
       links: [
         {
-          name: 'Conheça o Blog',
-          href: 'https://vidafullstack.com.br',
+          name:'conheça o Salon Sense',
+          href: 'https://salonsense.000webhostapp.com/',
         },
       ]
-    },
-    {
-      src: 'assets/img/projects/vfull.png',
-      alt: '',
-      title: 'vida Fullstack',
-      width: '100px',
-      height: '51px', 
-      description: '<p>Explore o fascinante mundo do desenvolvimento web do meu blog dedicado a vida fullstack</p>',
-      links: [
-        {
-          name: 'Conheça o Blog',
-          href: 'https://vidafullstack.com.br',
-        },
-      ]
-    },
-    {
-      src: 'assets/img/projects/vfull.png',
-      alt: '',
-      title: 'vida Fullstack',
-      width: '100px',
-      height: '51px', 
-      description: '<p>Explore o fascinante mundo do desenvolvimento web do meu blog dedicado a vida fullstack</p>',
-      links: [
-        {
-          name: 'Conheça o Blog',
-          href: 'https://vidafullstack.com.br',
-        },
-      ]
-    },
-    {
-      src: 'assets/img/projects/vfull.png',
-      alt: '',
-      title: 'vida Fullstack',
-      width: '100px',
-      height: '51px', 
-      description: '<p>Explore o fascinante mundo do desenvolvimento web do meu blog dedicado a vida fullstack</p>',
-      links: [
-        {
-          name: 'Conheça o Blog',
-          href: 'https://vidafullstack.com.br',
-        },
-      ]
-    },
-    {
-      src: 'assets/img/projects/vfull.png',
-      alt: '',
-      title: 'vida Fullstack',
-      width: '100px',
-      height: '51px', 
-      description: '<p>Explore o fascinante mundo do desenvolvimento web do meu blog dedicado a vida fullstack</p>',
-      links: [
-        {
-          name: 'Conheça o Blog',
-          href: 'https://vidafullstack.com.br',
-        },
-      ]
-    },
-    
+    }
   ])
 
   public openDialog(data: IProjects){

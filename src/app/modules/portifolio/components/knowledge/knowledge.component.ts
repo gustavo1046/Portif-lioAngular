@@ -19,8 +19,8 @@ export class KnowledgeComponent {
       alt: 'Ícone de conehcimento de CSS3'
     },
     {
-      src: 'assets/icons/knowledge/html5.svg',
-      alt: 'Ícone de conehcimento de HTML5'
+      src: 'assets/icons/knowledge/angular.svg',
+      alt: 'Ícone de conhecimento de Angular'
     },
     {
       src: 'assets/icons/knowledge/javascript.svg',
